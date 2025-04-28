@@ -77,7 +77,7 @@ if selected == 'Diabetes Prediction':
     SkinThickness = display_input('Skin Thickness value(10mm-30mm)', 'Enter skin thickness value', 'SkinThickness', 'number')
     Insulin = display_input('Insulin Level(Normal to High (>10-25 µU/mL))', 'Enter insulin level', 'Insulin', 'number')
     BMI = display_input('BMI value(Ranges from 18.5 – 24.9 kg/m²)', 'Enter Body Mass Index value', 'BMI', 'number')
-    DiabetesPedigreeFunction = display_input('Diabetes Pedigree Function value(Ranges from 0.2 to 0.5)', 'Enter diabetes pedigree function value', 'DiabetesPedigreeFunction', 'number')
+    DiabetesPedigreeFunction = display_input('Diabetes Pedigree Function value(Ranges from 0.1 to 2.5)', 'Enter diabetes pedigree function value', 'DiabetesPedigreeFunction', 'number')
     Age = display_input('Age of the Person', 'Enter age of the person', 'Age', 'number')
 
     diab_diagnosis = ''
